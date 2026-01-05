@@ -1,6 +1,6 @@
 # Estudos de HTML - Guanabara
 
-Aqui insiro o que estou aprendendo nesse bootcamp e todos os conhecimentos adquiridos ao longo do [Curso em vídeo](hhttps://www.youtube.com/@cursoemvideo)
+Aqui insiro todos os conhecimentos adquiridos ao longo do [Curso em vídeo](hhttps://www.youtube.com/@cursoemvideo)
 
 
 ## Capitulo 6
@@ -15,4 +15,4 @@ colocar o código na head
 ```<``` link rel="shortcut icon" href="favicon.ico" type="image/x-icon ```>```
 
 ## Capítulo 7
-**Aula 01**
+**Aula 01 - Hierarquia de Títulos**

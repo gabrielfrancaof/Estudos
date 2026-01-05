@@ -9,4 +9,5 @@ se for mais de uma linha começa com /** e termina com /*
 **Exemplo prático**
 Fiz o arquivo....
 
-## Aula 2:
+## Aula 2: Keywords e tipos primitivos
+- Aprendi que são palavras reservadas que não podem ser utilizadas como variaveis, como por exemplo: record, default, double, final, byte, short, int, long...
