@@ -2,6 +2,13 @@
 
 Aqui insiro todos os conhecimentos adquiridos ao longo do [Curso em vídeo](hhttps://www.youtube.com/@cursoemvideo)
 
+## Anteriores ao capítulo 6
+- Para colocar ```< ou >```, usar &lt; ou &gt;
+- Para adicionar comentários usar 
+- ``` <!-- assim você cria um comentário--> ```
+
+
+
 
 ## Capitulo 6
 **Aula 5 - favicon**
@@ -16,3 +23,7 @@ colocar o código na head
 
 ## Capítulo 7
 **Aula 01 - Hierarquia de Títulos**
+- Os títulos são organizados por níveis
+- Em muitos lugares falam que é o tamanho da letra apenas, mas é mentira, sendo cada um deles um nível 
+- Para gerar um texto aleatório usar "lorem"
+- Os níveis vão até o ```<h6>```
