@@ -10,7 +10,6 @@ Repositório dos meus estudos e conhecimentos adquiridos ao longo de cursos e au
 ## 🎯 Objetivo
 Me tornar desenvolvedor Back-end Java.
 
-
 ## 📚 Documentação
 - [Documentação Git](https://git-scm.com/docs/git/pt_BR)
 - [Documentação Github](https://docs.github.com/pt)
