@@ -27,3 +27,5 @@ colocar o código na head
 - Em muitos lugares falam que é o tamanho da letra apenas, mas é mentira, sendo cada um deles um nível 
 - Para gerar um texto aleatório usar "lorem"
 - Os níveis vão até o ```<h6>```
+
+**Aula 02**
