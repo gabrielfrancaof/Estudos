@@ -8,7 +8,7 @@ Repositório dos meus estudos e conhecimentos adquiridos ao longo de cursos e au
 - [] **Javascript** [Acessar pastas](./javascript/)
 
 ## 🎯 Objetivo
-Me tornar desenvolvedor Back-end Java
+Me tornar desenvolvedor Back-end Java.
 
 
 ## 📚 Documentação
