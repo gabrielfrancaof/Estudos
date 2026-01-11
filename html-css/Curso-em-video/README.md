@@ -28,4 +28,11 @@ colocar o código na head
 - Para gerar um texto aleatório usar "lorem"
 - Os níveis vão até o ```<h6>```
 
-**Aula 02**
+## Capítulo 8
+**Aula 01 - Semântica**
+- Existem tags obsoletas, como por exemplo "bgcolor", "marquee", "font"
+- html5 não foca mais em formas, e sim em sêmantica, em significado
+- html4 focava na forma das coisas, exemplo, o texto está na FORMA negrito. html5 fala que o texto esta forte, na semantica de o negrito estar mais forte, sendo um destaque
+
+**Aula 02 - Formatação de textos**
+- ctrl+shift+p para envelopar texto selecionado com uma tag
