@@ -3,12 +3,12 @@
 Repositório dos meus estudos e conhecimentos adquiridos ao longo de cursos e aulas.
 
 ## 📁 Trilhas atuais
+- [x] **Maratona Java virado no Jiraya** - [Acessar pasta](./Java/DevDojo-Java-Virado-no-Juraya/)
 - [x] **Java Back-end (DIO & CI&T**) - [Acessar pasta](./java/dio-bootcamp-backend-cit/)
-- [x] **HTML & CSS** [Acessar pasta](./html-css/)
-- [] **Javascript** [Acessar pastas](./javascript/)
+- [x] **HTML & CSS** - [Acessar pasta](./html-css/)
 
 ## 🎯 Objetivo
-Me tornar desenvolvedor Back-end Java.
+☕ Me tornar um desenvolvedor Back-end Java.
 
 ## 📚 Documentação
 - [Documentação Git](https://git-scm.com/docs/git/pt_BR)
@@ -16,5 +16,7 @@ Me tornar desenvolvedor Back-end Java.
 
 
 ## 🔍 Referências
-- [Digital Inovation One](https://www.dio.me/)
+
+- [DevDojo](https://www.youtube.com/@DevDojoBrasil)
 - [Curso em vídeo](https://www.youtube.com/@cursoemvideo)
+- [Digital Inovation One](https://www.dio.me/)
