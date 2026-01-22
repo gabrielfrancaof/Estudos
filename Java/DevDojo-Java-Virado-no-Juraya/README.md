@@ -7,9 +7,9 @@ Aqui insiro todos os conhecimentos adquiridos ao longo do curso desenvolvido pel
 | Módulo | Status | O que pratiquei |
 | :--- | :--- | :--- |
 | 01 - Introdução | 🟢 Concluído | Instalar IDE e pacote JDK, organização de pacotes e comentários|
-| 02 - Tipos Primitivos | 🟢 Andamento | Conheci os 8 tipos primitivos e fiz um exercício com variáveis|
-| 03 - Operadores | 🟡 A fazer | - |
-| 04 - Estruturas condicionais | 🔴 A fazer | - |
+| 02 - Tipos Primitivos | 🟢 Concluído | Conheci os 8 tipos primitivos e fiz um exercício com variáveis|
+| 03 - Operadores | 🟢 Concluído | Quais são os operadores,como fazer operações dentro de variáveis e do print e quais são os operadores lógicos |
+| 04 - Estruturas condicionais | 🟡 Andamento | - |
 | 05 - Estruturas de Repetição | 🔴 A fazer | - |
 | 06 - Arrays | 🔴 A fazer | - |
 | 07 - Orientação de Objetos | 🔴 A fazer | - |
@@ -72,8 +72,25 @@ Sting = nome "Gabriel";
 ```
 
 ### **Aula 14 - Exercício**
-- Foi feito um exercício para escrever uma frase usando variáveis e contatenar no final
+- Foi feito um exercício para escrever uma frase usando variáveis e concatenar no final
 
-## 03 - **Operadores**
+## **03 - Operadores**
 
 ### **Aula 15 - Aritiméticos**
+- A operação aritimética, pode ser feita no println, porém, a ordem irá influenciar se irá somar ou concatenar, ex: (10+10) -> irá somar, ("valor"+10+10) -> irá concatenar e (10+10+"valor") -> irá somar e depois concatenar
+- Nas operações deve-se tomar cuidado com os tipos da variavel, por exemplo, ao dividir dois números INT o resultado será um número inteito, ex 20/10=0, para isso, devera usar um número double por exemplo para ter o resultado esperado 20/10=0,5 (int/double)
+
+### **Aula 16 - Relacionais**
+- Para calcular o resto, é utilizado o sinal de %
+- Os operadores lógicos são utilizados pelos simbolos < > <= >= ==  !=
+- O resultado dos operadores lógicos irão sempre retornar booleanos, ex: 10 > 20 ---> False
+
+### **Aula 17, 18 e 19 - Lógicos AND, OR e Atribuição**
+- Para usar o ADN é utilizado &&
+- Para usar o OR é utilizado ||
+- Para atribuições, itilizar += -= *= /= %= ++ --
+
+## **04 - Estruturas Condicionais**
+
+### **Aula 20 - IF, ELSE**
+
