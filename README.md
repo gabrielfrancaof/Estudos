@@ -3,9 +3,9 @@
 Repositório dos meus estudos e conhecimentos adquiridos ao longo de cursos e aulas.
 
 ## 📁 Trilhas atuais
-- [x] **Maratona Java virado no Jiraya** - [Acessar pasta](./Java/DevDojo-Java-Virado-no-Juraya/)
-- [x] **Java Back-end (DIO & CI&T**) - [Acessar pasta](./java/dio-bootcamp-backend-cit/)
-- [x] **HTML & CSS** - [Acessar pasta](./html-css/)
+- [-] **Maratona Java virado no Jiraya** - [Acessar pasta](./Java/DevDojo-Java-Virado-no-Juraya/)
+- [-] **Java Back-end (DIO & CI&T**) - [Acessar pasta](./java/dio-bootcamp-backend-cit/)
+- [-] **HTML & CSS** - [Acessar pasta](./html-css/)
 
 ## 🎯 Objetivo
 ☕ Me tornar um desenvolvedor Back-end Java.
@@ -13,6 +13,9 @@ Repositório dos meus estudos e conhecimentos adquiridos ao longo de cursos e au
 ## 📚 Documentação
 - [Documentação Git](https://git-scm.com/docs/git/pt_BR)
 - [Documentação Github](https://docs.github.com/pt)
+- [Documentação Java](https://docs.oracle.com/en/java/javase/25/)
+- [Documentação HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Documentação CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 
 ## 🔍 Referências
