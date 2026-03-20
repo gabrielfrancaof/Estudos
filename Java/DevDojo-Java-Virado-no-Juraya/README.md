@@ -86,11 +86,11 @@ Sting = nome "Gabriel";
 - O resultado dos operadores lógicos irão sempre retornar booleanos, ex: 10 > 20 ---> False
 
 ### **Aula 17, 18 e 19 - Lógicos AND, OR e Atribuição**
-- Para usar o ADN é utilizado &&
+- Para usar o AND é utilizado &&
 - Para usar o OR é utilizado ||
 - Para atribuições, itilizar += -= *= /= %= ++ --
 
 ## **04 - Estruturas Condicionais**
 
-### **Aula 20 - IF, ELSE**
+### **Aula 20, 21 - IF, ELSE, ELSE IF**
 
