@@ -94,3 +94,39 @@ Sting = nome "Gabriel";
 
 ### **Aula 20, 21 - IF, ELSE, ELSE IF**
 
+### **Aula 22 - Operador ternário**
+
+O operador ternário em Java (? :) é uma expressão condicional que retorna um valor, não sendo estritamente uma string ou uma variável. Ele funciona como um if-else simplificado em uma única linha, onde o resultado final geralmente é atribuído a uma variável de qualquer tipo
+
+Sua definição é (condição) ? valor_se_verdadeiro : valor_se_falso;
+
+Exemplo:
+
+```java
+        double salario = 5000;
+        String mensagemDoar = "Eu vou doar 500 pro DevDojo";
+        String mensagemNaoDoar = "Eu ainda não tenho condições, mas vou ter";
+        String resultado;
+        if (salario > 5000){
+            resultado = mensagemDoar;
+        }else {
+            resultado = mensagemNaoDoar;
+        }
+        System.out.println(resultado);
+```
+Em vez de colocar um If-else, ele pode ser escrito da seguinte forma:
+
+```java
+        double salario = 6000;
+        String mensagemDoar = "Eu vou doar 500 pro DevDojo";
+        String mensagemNaoDoar = "Eu ainda não tenho condições, mas vou ter";
+        String resultado = (salario > 5000) ? mensagemDoar : mensagemNaoDoar;
+        System.out.println(resultado);
+```
+E ainda é possível simplificar mais
+
+```Java
+        double salario = 6000;
+        String resultado = (salario > 5000) ? "Eu vou doar 500 pro DevDojo" : "Eu ainda não tenho condições, mas vou ter";
+        System.out.println(resultado);
+```
