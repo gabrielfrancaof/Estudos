@@ -1,0 +1,11 @@
+# 🐍 Estudos de python - Faculdade
+
+Repositório dedicado às aulas práticas de Python do curso de Engenharia de Software pela [Universidade Cruzeiro do Sul](https://www.cruzeirodosul.edu.br/).
+
+
+## **1º Semestre - Programação de Computadores**
+
+### Aula 05 (Data: 10/04/2026)
+
+
+
