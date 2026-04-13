@@ -1,0 +1,1 @@
+#Escreva um programa em python que calcule as duas raizes de uma equação de 2º Grau ax**2+bx+c. conhecendo os valores dos coeficientes da mesma. Suponha que as raizes são reais.
