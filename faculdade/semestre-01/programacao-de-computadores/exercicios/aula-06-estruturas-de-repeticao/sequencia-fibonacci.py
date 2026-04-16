@@ -1,6 +1,6 @@
-#10 primeiros numeros fibonacci, escolher a quantidade e imprimir
+#Ler a qtd de itens da sequência fibonacci e imprimir os números
 
-n = int (input("Digite a quantidade da sequencia: ")) 
+n = int (input("Digite a quantidade da sequência: ")) 
 a = 0
 b = 1
 
