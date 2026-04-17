@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promoções | TechNova Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        /* Estilo específico para destacar as ofertas */
+        .badge-desconto {
+            background: #e74c3c;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .card { position: relative; }
+        .banner-promo {
+            background: linear-gradient(135deg, #1a1a2e 0%, #00d4ff 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">TechNova</a>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="promocoes.html">Promoções</a></li>
+                <li><a href="monte-seu-pc.html">Monte seu PC</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="banner-promo">
+            <h1>🔥 SEMANA GAMER TECHNOVA</h1>
+            <p>Descontos de até 40% em periféricos e hardware!</p>
+        </div>
+
+        <h2>Melhores Ofertas</h2>
+        
+        <div class="grid-produtos">
+            <div class="card">
+                <div class="badge-desconto">-30%</div>
+                <img src="kitup.avif" alt="Kit Upgrade">
+                <h3>Kit Upgrade Pro</h3>
+                <p>Core i7-13700K + Placa Mãe Z790 DDR5</p>
+                <span class="preco-antigo" style="text-decoration: line-through; color: #888;">R$ 4.200,00</span>
+                <span class="preco">R$ 2.940,00</span>
+                <button class="btn-comprar">Comprar Agora</button>
+            </div>
+
+            <div class="card">
+                <div class="badge-desconto">-20%</div>
+                <img src="4.jpg" alt="Monitor">
+                <h3>Monitor Curvo 27' 165Hz</h3>
+                <p>Resolução Full HD, 1ms</p>
+                <span class="preco-antigo" style="text-decoration: line-through; color: #888;">R$ 1.800,00</span>
+                <span class="preco">R$ 1.440,00</span>
+                <button class="btn-comprar">Comprar Agora</button>
+            </div>
+
+            <div class="card">
+                <div class="badge-desconto">-15%</div>
+                <img src="4060.webp" alt="GPU">
+                <h3>RTX 4060 Ti 8GB</h3>
+                <p>Ray Tracing, DLSS 3</p>
+                <span class="preco-antigo" style="text-decoration: line-through; color: #888;">R$ 2.900,00</span>
+                <span class="preco">R$ 2.465,00</span>
+                <button class="btn-comprar">Comprar Agora</button>
+            </div>
+
+            <div class="card">
+                <div class="badge-desconto">-40%</div>
+                <img src="teclado.jpg" alt="Teclado">
+                <h3>Teclado Mecânico RGB</h3>
+                <p>Switch Huano Blue</p>
+                <span class="preco-antigo" style="text-decoration: line-through; color: #888;">R$ 450,00</span>
+                <span class="preco">R$ 270,00</span>
+                <button class="btn-comprar">Comprar Agora</button>
+            </div>
+        </div>
+    </main>

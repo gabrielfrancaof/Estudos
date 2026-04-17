@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Carrinho | TechNova</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        .tabela-carrinho { width: 100%; border-collapse: collapse; margin-bottom: 20px; background: white; }
+        .tabela-carrinho th, .tabela-carrinho td { padding: 15px; border-bottom: 1px solid #ddd; text-align: left; }
+        .resumo-carrinho { background: #fff; padding: 20px; border-radius: 8px; max-width: 300px; margin-left: auto; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .total { font-size: 1.5rem; color: #27ae60; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">TechNova</a>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="promocoes.html">Promoções</a></li>
+                <li><a href="monte-seu-pc.html">Monte seu PC</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Seu Carrinho de Compras</h1>
+        <table class="tabela-carrinho">
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>PC Gamer Ultra Alpha</td>
+                    <td>1</td>
+                    <td>R$ 5.499,00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="resumo-carrinho">
+            <p>Subtotal: R$ 5.499,00</p>
+            <p>Frete: Grátis</p>
+            <p class="total">Total: R$ 5.499,00</p>
+            <button class="btn-comprar" style="margin-top: 15px;">Finalizar Pedido</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <h3>TechNova Solutions</h3>
+                <p>Avenida da Tecnologia, 1024 - Bairro Binário</p>
+                <p>São Paulo - SP | CEP: 01010-000</p>
+            </div>
+            <div>
+                <h3>Contato</h3>
+                <p>📞 (11) 4002-8922</p>
+                <p>✉️ atendimento@technova.com.br</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

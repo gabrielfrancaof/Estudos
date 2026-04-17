@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    padding-top: 80px; /* Espaço para o menu fixo */
+}
+
+/* Menu */
+header {
+    background: #1a1a2e;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo { font-size: 1.5rem; font-weight: bold; color: #00d4ff; text-decoration: none; }
+
+nav ul { display: flex; list-style: none; }
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+nav ul li a:hover { color: #00d4ff; }
+
+/* Conteúdo */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 40px 20px;
+    min-height: 70vh;
+}
+
+h1, h2 { margin-bottom: 20px; color: #1a1a2e; }
+
+/* Grid de Produtos */
+.grid-produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img { width: 100%; border-radius: 5px; margin-bottom: 15px; }
+
+.preco { font-size: 1.2rem; color: #27ae60; font-weight: bold; display: block; margin: 10px 0; }
+
+.btn-comprar {
+    background: #00d4ff;
+    color: #1a1a2e;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Formulário */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.form-group { margin-bottom: 15px; }
+.form-group label { display: block; margin-bottom: 5px; }
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Rodapé */
+footer {
+    background: #1a1a2e;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.footer-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}

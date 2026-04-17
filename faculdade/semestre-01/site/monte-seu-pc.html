@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Monte seu PC | TechNova</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">TechNova</a>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="promocoes.html">Promoções</a></li>
+                <li><a href="monte-seu-pc.html">Monte seu PC</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2 style="text-align: center;">Personalize a sua Máquina</h2>
+        <form id="formMonte">
+            <div class="form-group">
+                <label>Processador:</label>
+                <select>
+                    <option>Intel Core i7</option>
+                    <option>AMD Ryzen 7</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Memória RAM:</label>
+                <select>
+                    <option>16GB</option>
+                    <option>32GB</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Observações Adicionais:</label>
+                <textarea rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Seu E-mail:</label>
+                <input type="email" required>
+            </div>
+            <button type="submit" class="btn-comprar">Enviar Configuração</button>
+        </form>
+        <div id="msgSucesso" style="display:none; text-align: center; margin-top: 20px; color: green; font-weight: bold;">
+            Pedido recebido! A nossa equipa entrará em contacto brevemente com o orçamento.
+        </div>
+    </main>
+
+    <script>
+        document.getElementById('formMonte').onsubmit = function(e) {
+            e.preventDefault();
+            this.style.display = 'none';
+            document.getElementById('msgSucesso').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
