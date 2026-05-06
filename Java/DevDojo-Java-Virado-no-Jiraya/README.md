@@ -19,7 +19,7 @@ Aqui insiro todos os conhecimentos adquiridos ao longo do curso desenvolvido pel
 ## 01 - Introdução
 
 ### **Aula 05 - Executando o codigo manualmente**
-- Nomes de classes sempre tem a primeira letra maiuscula, se for palavra composta, colocar a primeira letra de cada maiuscula, exemplo: OlaDevDojo
+- Nomes de classes sempre tem a primeira letra maiuscula, se for palavra composta, colocar a primeira letra de cada maiuscula, exemplo: `OlaDevDojo`
 ```java
 public class OlaDevDojo {
     public static void main (String[] args) {
@@ -50,19 +50,19 @@ public class OlaDevDojo {
 ## 02 - Tipos primitivos
 
 ### **Aula 10 - Convenções de variáveis**
-- Temos 8 tipos de primitivos, sendo eles: int, double, flooat, char, byte, short, long, boolean.
-- psvm ou main + tab --> Escreve o código "static void main()"
+- Temos 8 tipos de primitivos, sendo eles: `int, double, flooat, char, byte, short, long, boolean.`
+- `psvm` ou `main` + tab --> Escreve o código `static void main()`
 - Variáveis são espaço na memória.
-- Na criação de variável, a primeira letra tem que ser minúscula, se for mais de uma palavra, as outras devem ser maiúsculas, ex: int idadeDoPaiNaHoraDoCadastro
-- Para adicionar texto na hora de imprimir, basta colocar ""+ dentro da linha de comando, exemplo: System.out.println("A idade é "+age);
+- Na criação de variável, a primeira letra tem que ser minúscula, se for mais de uma palavra, as outras devem ser maiúsculas, ex: `int idadeDoPaiNaHoraDoCadastro`
+- Para adicionar texto na hora de imprimir, basta colocar ""+ dentro da linha de comando, exemplo: `System.out.println("A idade é "+age);`
 - Atalho para o println --> sout
 
 ### **Aula 11 - Declaração e tamanho em memória**
-- Todos os tipos primitivos são númericos, exceto boolean, a diferença é a quantidade de valor que podem ser colocados nas variáveis
+- Todos os tipos primitivos são numéricos, exceto boolean, a diferença é a quantidade de valor que podem ser colocados nas variáveis
 - Ctrl + D duplica linha de código
 
 ### **Aula 12 - Casting**
-- É forçar um valor dentro de uma vaiável que não cabe dentro de outra, ex: colocar um número double dentro do float.
+- É forçar um valor dentro de uma variável que não cabe dentro de outra, ex: colocar um número double dentro do float.
 - Casting não é uma boa prática, o ideal é trocar o tipo da variável.
 
 ### **Aula 13 - Strings**
@@ -81,14 +81,14 @@ Sting = nome "Gabriel";
 - Nas operações deve-se tomar cuidado com os tipos da variavel, por exemplo, ao dividir dois números INT o resultado será um número inteito, ex 20/10=0, para isso, devera usar um número double por exemplo para ter o resultado esperado 20/10=0,5 (int/double)
 
 ### **Aula 16 - Relacionais**
-- Para calcular o resto, é utilizado o sinal de %
-- Os operadores lógicos são utilizados pelos simbolos < > <= >= ==  !=
+- Para calcular o resto, é utilizado o sinal de `%`
+- Os operadores lógicos são utilizados pelos simbolos `< > <= >= ==  !=`
 - O resultado dos operadores lógicos irão sempre retornar booleanos, ex: 10 > 20 ---> False
 
 ### **Aula 17, 18 e 19 - Lógicos AND, OR e Atribuição**
-- Para usar o AND é utilizado &&
-- Para usar o OR é utilizado ||
-- Para atribuições, itilizar += -= *= /= %= ++ --
+- Para usar o AND é utilizado `&&`
+- Para usar o OR é utilizado `||`
+- Para atribuições, itilizar `+= -= *= /= %= ++ --`
 
 ## **04 - Estruturas Condicionais**
 
@@ -96,9 +96,9 @@ Sting = nome "Gabriel";
 
 ### **Aula 22 - Operador ternário**
 
-O operador ternário em Java (? :) é uma expressão condicional que retorna um valor, não sendo estritamente uma string ou uma variável. Ele funciona como um if-else simplificado em uma única linha, onde o resultado final geralmente é atribuído a uma variável de qualquer tipo
+- O operador ternário em Java (? :) é uma expressão condicional que retorna um valor, não sendo estritamente uma string ou uma variável. Ele funciona como um if-else simplificado em uma única linha, onde o resultado final geralmente é atribuído a uma variável de qualquer tipo
 
-Sua definição é (condição) ? valor_se_verdadeiro : valor_se_falso;
+- Sua definição é: `(condição) ? valor_se_verdadeiro : valor_se_falso;`
 
 Exemplo:
 
@@ -129,4 +129,29 @@ E ainda é possível simplificar mais
         double salario = 6000;
         String resultado = (salario > 5000) ? "Eu vou doar 500 pro DevDojo" : "Eu ainda não tenho condições, mas vou ter";
         System.out.println(resultado);
+```
+
+### **Aula 25 - Switch**
+- Os valores que podem ser utilizados no `switch` são: char, int, byte, short, enum, String
+- O switch é usado no lugar de If Else em alguns casos para simplificar o código, por exemplo, em vez de usar o if para cada dia da semana é possível usar o Switch:
+```Java
+byte dia = 1;
+switch (dia){
+    case 1:
+        System.out.println("Domingo");
+        break;
+```
+(Nesse exemplo ele identifica valor da variável, e caso seja igual ao solicitado ele irá imprimir)
+- É muito importante usar o `break`, pois ele também irá executar os próximos `case` se existirem
+- Também é importante usar o `default` por uma questão humana, caso tenha alguma opção que não tenha no case, ele irá retornar o que pedir, por exemplo:
+
+```Java
+byte dia = 35;
+switch (dia){
+    case 1:
+        System.out.println("Domingo");
+        break;
+    default:
+        System.out.println("Opção inválida");
+        break;
 ```
