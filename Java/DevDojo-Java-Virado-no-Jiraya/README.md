@@ -155,3 +155,20 @@ switch (dia){
         System.out.println("Opção inválida");
         break;
 ```
+
+## **05 - Estruturas de repetição**
+### **Aula 27 - Laços de repetição while, do while, for**
+- `while` precisa sempre retornar um valor booleano e:
+```java
+int count = 0;
+        while (count < 10){
+            System.out.println(count);
+            count += 1;
+```
+- o `do` ele é executado uma vez independente se ser verdadeiro ou não
+- o `for` é feito da seguinte forma: `for (;;)`, funcionando assim -> `for ( variavel ; comparação ; como a variavel vai alterar o status)`. Exemplo:
+```java
+for (int i = 0; i<10; i++){
+                System.out.println("For "+i);
+```
+
