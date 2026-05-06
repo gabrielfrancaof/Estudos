@@ -6,7 +6,7 @@ public class Aula05EstruturasCondicionais06 {
         //Considerando 1 como domingo
 
         byte dia = 5;
-        """ // inicialmente fiz desta forma, mas possui um jeito ainda mais fácil
+        /* // inicialmente fiz desta forma, mas possui um jeito ainda mais fácil
         switch (dia){
             case 1:
                 System.out.println("Dia de final de semana");
@@ -33,7 +33,7 @@ public class Aula05EstruturasCondicionais06 {
                 System.out.println("Opção inválida");
                 break;
         }
-        """
+        */
         switch (dia){
             case 1:
             case 7:
