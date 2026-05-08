@@ -172,3 +172,7 @@ for (int i = 0; i<10; i++){
                 System.out.println("For "+i);
 ```
 
+## **06 - Arrays**
+## **Aula 32 - arrays**
+- `arrays` é um objeto de memória, ou seja, utilizado como referência e não como tipo primitivo
+- As posições são indexadas, sempre começando por "0"
